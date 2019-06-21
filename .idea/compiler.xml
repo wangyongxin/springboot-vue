@@ -11,9 +11,5 @@
       <entry name="!?*.kt" />
       <entry name="!?*.clj" />
     </wildcardResourcePatterns>
-    <bytecodeTargetLevel>
-      <module name="vue-server.main" target="1.8" />
-      <module name="vue-server.test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

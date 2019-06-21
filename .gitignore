@@ -4,8 +4,6 @@
 # Project exclude paths
 /.gradle/
 /vue-client/.gradle/
-/vue-server/build/
-/vue-server/build/classes/java/main/
 # Project exclude paths
 /springboot-server/build/
 /springboot-server/build/classes/java/main/
