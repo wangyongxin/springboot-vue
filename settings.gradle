@@ -1,0 +1,5 @@
+rootProject.name = 'vue-wangyx'
+
+include 'vue-server'
+include 'vue-client'
+
