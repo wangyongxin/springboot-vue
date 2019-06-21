@@ -1,0 +1,18 @@
+使用gradle 创建父模块 vue-wangyx
+使用gradle springboot 初始化器 创建子模块 vue-server 需要手动创建文件夹及代码配置
+使用gradle 创建子模块 vue-client
+初始化 vue 项目
+cd vue-wangyx
+vue init webpack vue-client
+
+初始化完成
+To get started:
+
+  cd vue-client
+  npm run dev
+
+Documentation can be found at https://vuejs-templates.github.io/webpack
+
+
+
+npm install yarn

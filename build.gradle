@@ -1,3 +1,28 @@
 group 'com.wangyx'
 version '1.0-SNAPSHOT'
 
+task copyHtml(type: Copy) {
+    group = 'build'
+    description = '复制编译后的index.html到 server 的 resource 目录'
+    from 'vue-client/dist/index.html'
+    into 'springboot-server/build/resources/main/static'
+}
+
+task copyStatic(type: Copy, dependsOn: 'copyHtml') {
+    group = 'build'
+    description = '复制编译后的静态文件到 server 的 resource 目录'
+    from 'vue-client/dist/static'
+    into 'springboot-server/build/resources/main/static/static'
+}
+
+copyStatic.mustRunAfter('vue-client:npmBuild')
+
+task mergeBuild(dependsOn: ['vue-client:npmBuild', ':copyStatic', 'springboot-server:bootJar']) {
+    group = 'build'
+    description = '合并编译输出'
+}
+
+task independentBuild(dependsOn: ['vue-client:npmBuild', 'springboot-server:bootJar']) {
+    group = 'build'
+    description = '独立编译输出'
+}

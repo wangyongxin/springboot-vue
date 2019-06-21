@@ -13,13 +13,15 @@ repositories {
     mavenCentral()
 }
 
-// build.gradle
-assemble.dependsOn project(':vue-client').getTasksByName('npmBuild', false)
-processResources {
-    from(project(':vue-client').file('dist').path) {
-        into 'static'
-    }
-}
+
+// 在本模块进行配置 是否加入vue编译后静态文件及目录 (可打包进jar)
+//assemble.dependsOn project(':vue-client').getTasksByName('npmBuild', false)
+//processResources {
+//    from(project(':vue-client').file('dist').path) {
+//        into 'static'
+//    }
+//}
+
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-freemarker'

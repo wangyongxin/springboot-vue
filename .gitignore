@@ -1,1 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
+# Project exclude paths
+/vue-client/build/
+# Project exclude paths
+/.gradle/
+/vue-client/.gradle/
+/vue-server/build/
+/vue-server/build/classes/java/main/
+# Project exclude paths
+/springboot-server/build/
+/springboot-server/build/classes/java/main/

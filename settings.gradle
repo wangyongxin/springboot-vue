@@ -1,5 +1,5 @@
-rootProject.name = 'vue-wangyx'
+rootProject.name = 'springboot-vue'
 
-include 'vue-server'
+include 'springboot-server'
 include 'vue-client'
 
