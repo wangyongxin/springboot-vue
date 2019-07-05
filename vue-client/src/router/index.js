@@ -4,6 +4,12 @@ import HelloWorld from '@/components/HelloWorld'
 import Message from '@/components/Message'
 import DataMethods from '@/components/DataMethods'
 import Template from '@/components/Template'
+import Computed from '@/components/Computed'
+import ClassStyle from '@/components/ClassStyle'
+import ComponentTest from '@/components/ComponentTest'
+import Condition from '@/components/Condition'
+import List from '@/components/List'
+
 
 Vue.use(Router)
 
@@ -31,6 +37,31 @@ let routes = [
     path: '/Template',
     name: 'Template',
     component: Template
+  },
+  {
+    path: '/Computed',
+    name: 'Computed',
+    component: Computed
+  },
+  {
+    path: '/ClassStyle',
+    name: 'ClassStyle',
+    component: ClassStyle
+  },
+  {
+    path: '/ComponentTest',
+    name: 'ComponentTest',
+    component: ComponentTest
+  },
+  {
+    path: '/Condition',
+    name: 'Condition',
+    component: Condition
+  },
+  {
+    path: '/List',
+    name: 'List',
+    component: List
   },
   {
     path: '/About',

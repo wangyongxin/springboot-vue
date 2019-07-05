@@ -19,6 +19,22 @@ Vue.component('todo-item2', {
   template: '<li>{{ todo.text }}</li>'
 })
 
+Vue.component('My2Component', {
+  template:
+      '        <ul>' +
+      '            <li' +
+      '                    is="todo-item"' +
+      '                    v-for="(todo, index) in items6"' +
+      '                    v-bind:key="todo.id"' +
+      '                    v-bind:title="todo.title"' +
+      '                    v-on:remove="items6.splice(index, 1)"' +
+      '            ></li>' +
+      '        </ul>',
+  props: ["items6"],
+  methods:{
+
+  }
+})
 
 /* eslint-disable no-new */
 new Vue({

@@ -24,29 +24,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5ccf721-ff67-4d49-bed5-041103a58841" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-server/src/main/java/com/wangyx/vueserver/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/DataMethods.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Message.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Template.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/ClassStyle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/ComponentTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Computed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Condition.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/List.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/config/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-client/src/components/DataMethods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/DataMethods.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-client/src/components/Template.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/Template.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/router/index.js" afterDir="false" />
     </list>
@@ -55,6 +44,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -329,8 +326,26 @@
       <workItem from="1561087097949" duration="671000" />
       <workItem from="1561087778789" duration="1318000" />
       <workItem from="1561089129195" duration="5396000" />
-      <workItem from="1561098684084" duration="12599000" />
+      <workItem from="1561098684084" duration="12682000" />
+      <workItem from="1561340202385" duration="2217000" />
+      <workItem from="1561346316580" duration="14000" />
+      <workItem from="1561346840778" duration="11000" />
+      <workItem from="1561347111075" duration="13000" />
+      <workItem from="1562055679929" duration="3152000" />
+      <workItem from="1562118288394" duration="6086000" />
+      <workItem from="1562142543474" duration="53000" />
+      <workItem from="1562206102399" duration="4496000" />
+      <workItem from="1562211210621" duration="11189000" />
+      <workItem from="1562290712097" duration="17343000" />
     </task>
+    <task id="LOCAL-00001" summary="practise">
+      <created>1561113463629</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561113463629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,6 +366,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="MARK_IGNORED_AS_EXCLUDED" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="practise" />
   </component>
 </project>
