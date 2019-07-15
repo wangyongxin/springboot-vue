@@ -9,6 +9,10 @@ import ClassStyle from '@/components/ClassStyle'
 import ComponentTest from '@/components/ComponentTest'
 import Condition from '@/components/Condition'
 import List from '@/components/List'
+import Event from '@/components/Event'
+import FormInputBindings from '@/components/FormInputBindings'
+import ComponentDemo from '@/components/ComponentDemo'
+import CustomComponent from '@/components/CustomComponent'
 
 
 Vue.use(Router)
@@ -62,6 +66,26 @@ let routes = [
     path: '/List',
     name: 'List',
     component: List
+  },
+  {
+    path: '/Event',
+    name: 'Event',
+    component: Event
+  },
+  {
+    path: '/FormInputBindings',
+    name: 'FormInputBindings',
+    component: FormInputBindings
+  },
+  {
+    path: '/ComponentDemo',
+    name: 'ComponentDemo',
+    component: ComponentDemo
+  },
+  {
+    path: '/CustomComponent',
+    name: 'CustomComponent',
+    component: CustomComponent
   },
   {
     path: '/About',

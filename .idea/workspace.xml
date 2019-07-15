@@ -24,20 +24,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5ccf721-ff67-4d49-bed5-041103a58841" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/ClassStyle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/ComponentTest.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Computed.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Condition.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-client/src/components/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/ComponentDemo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/CustomComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/Event.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-client/src/components/FormInputBindings.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/src/components/DataMethods.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/DataMethods.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/src/components/Template.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/Template.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/手记" beforeDir="false" afterPath="$PROJECT_DIR$/手记" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +46,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -136,7 +144,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20209059" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.startup.StartupConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
@@ -336,7 +344,18 @@
       <workItem from="1562142543474" duration="53000" />
       <workItem from="1562206102399" duration="4496000" />
       <workItem from="1562211210621" duration="11189000" />
-      <workItem from="1562290712097" duration="17343000" />
+      <workItem from="1562290712097" duration="18009000" />
+      <workItem from="1562549876652" duration="2010000" />
+      <workItem from="1562644492889" duration="10118000" />
+      <workItem from="1562727287792" duration="8750000" />
+      <workItem from="1562809003844" duration="6856000" />
+      <workItem from="1562895426527" duration="2300000" />
+      <workItem from="1562910147420" duration="2494000" />
+      <workItem from="1562914592786" duration="2117000" />
+      <workItem from="1562917296921" duration="3000" />
+      <workItem from="1562921114115" duration="2542000" />
+      <workItem from="1562924382554" duration="3000" />
+      <workItem from="1563181060516" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="practise">
       <created>1561113463629</created>
@@ -345,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561113463629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="more test">
+      <created>1562322501347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562322501347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +393,7 @@
   <component name="VcsManagerConfiguration">
     <option name="MARK_IGNORED_AS_EXCLUDED" value="true" />
     <MESSAGE value="practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="practise" />
+    <MESSAGE value="more test" />
+    <option name="LAST_COMMIT_MESSAGE" value="more test" />
   </component>
 </project>
