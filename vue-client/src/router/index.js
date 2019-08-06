@@ -13,6 +13,7 @@ import Event from '@/components/Event'
 import FormInputBindings from '@/components/FormInputBindings'
 import ComponentDemo from '@/components/ComponentDemo'
 import CustomComponent from '@/components/CustomComponent'
+import SlotDemo from '@/components/SlotDemo'
 
 
 Vue.use(Router)
@@ -86,6 +87,11 @@ let routes = [
     path: '/CustomComponent',
     name: 'CustomComponent',
     component: CustomComponent
+  },
+  {
+    path: '/SlotDemo',
+    name: 'SlotDemo',
+    component: SlotDemo
   },
   {
     path: '/About',
